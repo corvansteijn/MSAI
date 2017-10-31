@@ -1,0 +1,82 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fabbc883-0795-4de7-b4bb-c00959271a58" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Data Sets</ID>
+  <Name>Data Sets</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Data Sets</DataSourceID>
+  <Schema>
+    <xs:schema id="Data_x0020_Sets" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Data_x0020_Sets" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="6f5c4990-994e-439c-8579-042c80e4a260">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_TestSet" msprop:design-time-name="ee850894-9c69-4b4a-8418-c7fa3814e808" msprop:DbTableName="TestSet" msprop:FriendlyName="TestSet" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msprop:design-time-name="18606500-d88f-4b4d-9933-72bbdaffc1fe" msprop:DbColumnName="Id" msprop:FriendlyName="Id" type="xs:int" />
+                  <xs:element name="Data1" msprop:design-time-name="03f8d672-22d3-4984-a27d-54887847c08f" msprop:DbColumnName="Data1" msprop:FriendlyName="Data1" type="xs:int" />
+                  <xs:element name="Data2" msprop:design-time-name="28d4f6e3-e362-4d6e-a169-71e6336b925e" msprop:DbColumnName="Data2" msprop:FriendlyName="Data2" type="xs:int" />
+                  <xs:element name="Result" msprop:design-time-name="e928748c-4901-42b2-be12-63fab5f34b15" msprop:DbColumnName="Result" msprop:FriendlyName="Result" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TrainingSet" msprop:design-time-name="7e3bbb36-3ab2-496d-92e5-81796f380cdb" msprop:DbTableName="TrainingSet" msprop:FriendlyName="TrainingSet" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msprop:design-time-name="99bdcab9-a432-4b6a-b8b8-b0732f83c83b" msprop:DbColumnName="Id" msprop:FriendlyName="Id" type="xs:int" />
+                  <xs:element name="Data1" msprop:design-time-name="153bc607-8359-491c-823b-35f503ef391d" msprop:DbColumnName="Data1" msprop:FriendlyName="Data1" type="xs:int" />
+                  <xs:element name="Data2" msprop:design-time-name="1fb386a0-1c03-419c-ad89-5888e57dd976" msprop:DbColumnName="Data2" msprop:FriendlyName="Data2" type="xs:int" />
+                  <xs:element name="Result" msprop:design-time-name="8436f473-ca6a-4027-aa32-59aeb87e48bd" msprop:DbColumnName="Result" msprop:FriendlyName="Result" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TestSet" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:unique name="dbo_TrainingSet_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TrainingSet" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <Data_x0020_Sets xmlns="" />
+  </Schema>
+</DataSourceView>

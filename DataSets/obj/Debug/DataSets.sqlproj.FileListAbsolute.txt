@@ -1,0 +1,9 @@
+C:\Projects\MSNeuralNetwork\DataSets\bin\Debug\DataSets.dacpac
+C:\Projects\MSNeuralNetwork\DataSets\bin\Debug\DataSets.dll
+C:\Projects\MSNeuralNetwork\DataSets\bin\Debug\DataSets.pdb
+C:\Projects\MSNeuralNetwork\DataSets\obj\Debug\DataSets.dll
+C:\Projects\MSNeuralNetwork\DataSets\obj\Debug\DataSets.pdb
+C:\Projects\MSNeuralNetwork\DataSets\obj\Debug\Model.xml
+C:\Projects\MSNeuralNetwork\DataSets\obj\Debug\refactor.xml
+C:\Projects\MSNeuralNetwork\DataSets\obj\Debug\postdeploy.sql
+C:\Projects\MSNeuralNetwork\DataSets\obj\Debug\predeploy.sql
