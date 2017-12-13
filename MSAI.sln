@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject1", "MultidimensionalProject1\MultidimensionalProject1\MultidimensionalProject1.dwproj", "{BA534AF0-0FF4-4575-B17F-E877AABC362E}"
-EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DataSets", "DataSets\DataSets.sqlproj", "{6C9BA754-534F-48DC-A15A-86524C42EA99}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject1", "MultidimensionalProject1\MultidimensionalProject1.dwproj", "{9258A43F-32E1-4986-A752-5DD74DC695D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,15 +14,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Debug|Any CPU.ActiveCfg = Development
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Debug|Any CPU.Build.0 = Development
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Debug|Any CPU.Deploy.0 = Development
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Development|Any CPU.ActiveCfg = Development
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Development|Any CPU.Build.0 = Development
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Development|Any CPU.Deploy.0 = Development
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Release|Any CPU.ActiveCfg = Development
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Release|Any CPU.Build.0 = Development
-		{BA534AF0-0FF4-4575-B17F-E877AABC362E}.Release|Any CPU.Deploy.0 = Development
 		{6C9BA754-534F-48DC-A15A-86524C42EA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C9BA754-534F-48DC-A15A-86524C42EA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9BA754-534F-48DC-A15A-86524C42EA99}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -32,6 +23,15 @@ Global
 		{6C9BA754-534F-48DC-A15A-86524C42EA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9BA754-534F-48DC-A15A-86524C42EA99}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C9BA754-534F-48DC-A15A-86524C42EA99}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Debug|Any CPU.ActiveCfg = Development
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Debug|Any CPU.Build.0 = Development
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Debug|Any CPU.Deploy.0 = Development
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Development|Any CPU.ActiveCfg = Development
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Development|Any CPU.Build.0 = Development
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Development|Any CPU.Deploy.0 = Development
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Release|Any CPU.ActiveCfg = Development
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Release|Any CPU.Build.0 = Development
+		{9258A43F-32E1-4986-A752-5DD74DC695D3}.Release|Any CPU.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

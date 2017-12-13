@@ -20,8 +20,8 @@
   </DataSourceViews>
   <MiningModels>
     <ProjectItem>
-      <Name>Training Set.dmm</Name>
-      <FullPath>Training Set.dmm</FullPath>
+      <Name>Test Set.dmm</Name>
+      <FullPath>Test Set.dmm</FullPath>
     </ProjectItem>
   </MiningModels>
   <Configurations>
